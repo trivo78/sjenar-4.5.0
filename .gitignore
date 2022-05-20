@@ -22,3 +22,27 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+target/
+surefire-reports/
+.settings/
+.classpath
+.project 
+
+jena-shacl/pom.xml-old
+jena-shacl/.pom.xml.un~
+*.xml~
+*.log
+*.log
+jena-geosparql/derby.log
+jena-geosparql/derby.log
+jena-geosparql/derby.log
+/jena-arq/nbproject/
+*.lock
+*.idn
+*.dat
+*.bpt
+*.obj
+*.bdf
+*.jrnl
+*.log
