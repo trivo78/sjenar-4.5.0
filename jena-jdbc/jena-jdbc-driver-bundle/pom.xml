@@ -20,12 +20,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.apache.jena</groupId>
-		<artifactId>jena-jdbc</artifactId>
+		<groupId>com.vaimee</groupId>
+		<artifactId>sjenar-jdbc</artifactId>
 		<version>4.5.0</version>
 	</parent>
-	<artifactId>jena-jdbc-driver-bundle</artifactId>
-	<name>Apache Jena - JDBC Driver Bundle</name>
+	<artifactId>sjenar-jdbc-driver-bundle</artifactId>
+	<name>Vaimee SJenar - JDBC Driver Bundle</name>
 	<description>An artifact which bundles up the standard Jena JDBC drivers into a single shaded JAR file to provide a convenience dependency</description>
 
 	<properties>
@@ -44,18 +44,18 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-jdbc-driver-mem</artifactId>
+			<groupId>com.vaimee</groupId>
+			<artifactId>sjenar-jdbc-driver-mem</artifactId>
 			<version>4.5.0</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-jdbc-driver-remote</artifactId>
+			<groupId>com.vaimee</groupId>
+			<artifactId>sjenar-jdbc-driver-remote</artifactId>
 			<version>4.5.0</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-jdbc-driver-tdb</artifactId>
+			<groupId>com.vaimee</groupId>
+			<artifactId>sjenar-jdbc-driver-tdb</artifactId>
 			<version>4.5.0</version>
 		</dependency>
 
@@ -66,36 +66,36 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-jdbc-driver-mem</artifactId>
+			<groupId>com.vaimee</groupId>
+			<artifactId>sjenar-jdbc-driver-mem</artifactId>
 			<version>4.5.0</version>
 			<classifier>tests</classifier>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-jdbc-driver-remote</artifactId>
+			<groupId>com.vaimee</groupId>
+			<artifactId>sjenar-jdbc-driver-remote</artifactId>
 			<version>4.5.0</version>
 			<classifier>tests</classifier>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-jdbc-driver-tdb</artifactId>
+			<groupId>com.vaimee</groupId>
+			<artifactId>sjenar-jdbc-driver-tdb</artifactId>
 			<version>4.5.0</version>
 			<classifier>tests</classifier>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-jdbc-core</artifactId>
+			<groupId>com.vaimee</groupId>
+			<artifactId>sjenar-jdbc-core</artifactId>
 			<version>4.5.0</version>
 			<classifier>tests</classifier>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-fuseki-main</artifactId>
+			<groupId>com.vaimee</groupId>
+			<artifactId>sjenar-fuseki-main</artifactId>
 			<version>4.5.0</version>
 			<scope>test</scope>
 		</dependency>
@@ -176,6 +176,6 @@
 	</build>
 
   <scm>
-    <tag>jena-4.5.0</tag>
+    <tag>sjenar-4.5.0</tag>
   </scm>
 </project>

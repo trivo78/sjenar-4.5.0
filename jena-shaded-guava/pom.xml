@@ -20,14 +20,14 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.apache.jena</groupId>
-    <artifactId>jena</artifactId>
+    <groupId>com.vaimee</groupId>
+    <artifactId>sjenar</artifactId>
     <version>4.5.0</version>
     <relativePath>..</relativePath>
   </parent>
-  <artifactId>jena-shaded-guava</artifactId>
+  <artifactId>sjenar-shaded-guava</artifactId>
   <version>4.5.0</version>
-  <name>Apache Jena - Shadowed external libraries</name>
+  <name>Vaimee SJenAR - Shadowed external libraries</name>
 
   <description>
     This module shades Google's Guava.

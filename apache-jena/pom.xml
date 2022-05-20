@@ -24,17 +24,17 @@
   -->
 
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>apache-jena</artifactId>
+  <artifactId>vaimee-sjenar</artifactId>
   <packaging>pom</packaging>
-  <name>Apache Jena - Distribution</name>
+  <name>Vaimee SJenAR - Distribution</name>
   <url>https://jena.apache.org/</url>
   <description>
     Apache Jena is a API and toolkit for working with semantic web technologies such as RDF and SPARQL using Java.  This artifact represents the source and binary distribution packages generated for releases.
   </description>
 
   <parent>
-    <groupId>org.apache.jena</groupId>
-    <artifactId>jena</artifactId>
+    <groupId>com.vaimee</groupId>
+    <artifactId>sjenar</artifactId>
     <version>4.5.0</version>
     <relativePath>..</relativePath>
   </parent>
@@ -56,78 +56,78 @@
       Enumerate dependencies explicitly to get source as well.
     -->
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-arq</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-arq</artifactId>
       <version>4.5.0</version>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-arq</artifactId>
-      <version>4.5.0</version>
-      <classifier>sources</classifier>
-      <optional>true</optional>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-core</artifactId>
-      <version>4.5.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-core</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-arq</artifactId>
       <version>4.5.0</version>
       <classifier>sources</classifier>
       <optional>true</optional>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-rdfconnection</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-core</artifactId>
       <version>4.5.0</version>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-rdfconnection</artifactId>
-      <version>4.5.0</version>
-      <classifier>sources</classifier>
-      <optional>true</optional>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-shacl</artifactId>
-      <version>4.5.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-shacl</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-core</artifactId>
       <version>4.5.0</version>
       <classifier>sources</classifier>
       <optional>true</optional>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-shex</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-rdfconnection</artifactId>
       <version>4.5.0</version>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-shex</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-rdfconnection</artifactId>
       <version>4.5.0</version>
       <classifier>sources</classifier>
       <optional>true</optional>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-cmds</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-shacl</artifactId>
+      <version>4.5.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-shacl</artifactId>
+      <version>4.5.0</version>
+      <classifier>sources</classifier>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-shex</artifactId>
+      <version>4.5.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-shex</artifactId>
+      <version>4.5.0</version>
+      <classifier>sources</classifier>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-cmds</artifactId>
       <version>4.5.0</version>
     </dependency>
 
@@ -139,8 +139,8 @@
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-cmds</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-cmds</artifactId>
       <version>4.5.0</version>
       <classifier>sources</classifier>
       <optional>true</optional>

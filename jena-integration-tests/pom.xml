@@ -21,14 +21,14 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>jena-integration-tests</artifactId>
+  <artifactId>sjenar-integration-tests</artifactId>
   <packaging>jar</packaging>
-  <name>Apache Jena - Integration Testing</name>
-  <description>Apache Jena - Integration testing and test tools</description>
+  <name>Vaimee SJenar - Integration Testing</name>
+  <description>Vaimee SJenar - Integration testing and test tools</description>
 
   <parent>
-    <groupId>org.apache.jena</groupId>
-    <artifactId>jena</artifactId>
+    <groupId>com.vaimee</groupId>
+    <artifactId>sjenar</artifactId>
     <version>4.5.0</version>
     <relativePath>..</relativePath>
   </parent>
@@ -43,66 +43,66 @@
   <dependencies>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>apache-jena-libs</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>vaimee-sjenar-libs</artifactId>
       <version>4.5.0</version>
       <type>pom</type>
     </dependency>
 
     <!-- Modules that have tests here -->
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-rdfconnection</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-rdfconnection</artifactId>
       <version>4.5.0</version>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-rdfconnection</artifactId>
-      <version>4.5.0</version>
-      <classifier>tests</classifier>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-cmds</artifactId>
-      <version>4.5.0</version>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-cmds</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-rdfconnection</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-geosparql</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-cmds</artifactId>
       <version>4.5.0</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-fuseki-main</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-cmds</artifactId>
+      <version>4.5.0</version>
+      <classifier>tests</classifier>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-geosparql</artifactId>
+      <version>4.5.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-fuseki-main</artifactId>
       <version>4.5.0</version>
     </dependency>
     
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-fuseki-core</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-fuseki-core</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
     
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-fuseki-main</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-fuseki-main</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
@@ -110,38 +110,38 @@
 
     <!-- The test artifacts to go with apache-jena-libs -->
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-base</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-base</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-dboe-index-test</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-dboe-index-test</artifactId>
       <version>4.5.0</version>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-dboe-trans-data</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-dboe-trans-data</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
     
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-core</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-core</artifactId>
       <classifier>tests</classifier>
       <version>4.5.0</version>
       <scope>test</scope>
     </dependency>    
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-arq</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-arq</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>

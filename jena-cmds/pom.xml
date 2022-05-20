@@ -19,14 +19,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.apache.jena</groupId>
-    <artifactId>jena</artifactId>
+    <groupId>com.vaimee</groupId>
+    <artifactId>sjenar</artifactId>
     <version>4.5.0</version>
     <relativePath>..</relativePath>
   </parent> 
 
-  <name>Apache Jena - Command line tools</name>
-  <artifactId>jena-cmds</artifactId>
+  <name>Vaimee SJenAR - Command line tools</name>
+  <artifactId>sjenar-cmds</artifactId>
   <description>Command line tools</description>
 
   <packaging>jar</packaging>
@@ -53,37 +53,37 @@
   <dependencies>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>apache-jena-libs</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>vaimee-sjenar-libs</artifactId>
       <version>4.5.0</version>
       <type>pom</type>
     </dependency>
 
     <!-- Pull test code into scope -->
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-base</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-base</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <optional>true</optional>
     </dependency>     
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-core</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-core</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-arq</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-arq</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-shacl</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-shacl</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <optional>true</optional>

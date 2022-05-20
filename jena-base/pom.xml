@@ -20,13 +20,13 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.apache.jena</groupId>
-    <artifactId>jena</artifactId>
+    <groupId>com.vaimee</groupId>
+    <artifactId>sjenar</artifactId>
     <version>4.5.0</version>
     <relativePath>..</relativePath>
   </parent>
-  <artifactId>jena-base</artifactId>
-  <name>Apache Jena - Base Common Environment</name>
+  <artifactId>sjenar-base</artifactId>
+  <name>Vaimee SJenAR- Base Common Environment</name>
   <description>
     This module contains non-RDF library code and the common system runtime.
   </description>
@@ -43,8 +43,8 @@
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-shaded-guava</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-shaded-guava</artifactId>
       <version>4.5.0</version>
     </dependency>
     

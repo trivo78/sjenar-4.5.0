@@ -18,18 +18,18 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>jena-shacl</artifactId>
+  <artifactId>sjenar-shacl</artifactId>
   <packaging>jar</packaging>
-  <name>Apache Jena - SHACL</name>
+  <name>Vaimee SJenAR - SHACL</name>
 
   <parent>
-    <groupId>org.apache.jena</groupId>
-    <artifactId>jena</artifactId>
+    <groupId>com.vaimee</groupId>
+    <artifactId>sjenar</artifactId>
     <version>4.5.0</version>
     <relativePath>..</relativePath>
   </parent> 
 
-  <description>SHACL engine for Apache Jena</description>
+  <description>SHACL engine for Vaimee SJenAR</description>
 
   <properties>
     <build.time.xsd>${maven.build.timestamp}</build.time.xsd>
@@ -39,14 +39,14 @@
   <dependencies>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-arq</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-arq</artifactId>
       <version>4.5.0</version>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-arq</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-arq</artifactId>
       <classifier>tests</classifier>
       <version>4.5.0</version>
       <scope>test</scope>
@@ -133,7 +133,7 @@
           <encoding>UTF-8</encoding>
           <windowtitle>Apache Jena TDB</windowtitle>
           <doctitle>Apache Jena - SHACL ${project.version}</doctitle>
-          <excludePackageNames>org.apache.jena.shacl.*</excludePackageNames>
+          <excludePackageNames>com.vaimee.shacl.*</excludePackageNames>
           <bottom>Licenced under the Apache License, Version 2.0</bottom>
         </configuration>
       </plugin>

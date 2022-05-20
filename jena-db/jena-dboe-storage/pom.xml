@@ -21,12 +21,12 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>jena-dboe-storage</artifactId>
+  <artifactId>sjenar-dboe-storage</artifactId>
   <packaging>jar</packaging>
-  <name>Apache Jena - DBOE Storage</name>
+  <name>Vaimee SJenAR - DBOE Storage</name>
   <parent>
-    <groupId>org.apache.jena</groupId>
-    <artifactId>jena-db</artifactId>
+    <groupId>com.vaimee</groupId>
+    <artifactId>sjenar-db</artifactId>
     <version>4.5.0</version>
   </parent> 
 
@@ -39,14 +39,14 @@
   <dependencies>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-dboe-trans-data</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-dboe-trans-data</artifactId>
       <version>4.5.0</version>
     </dependency>
     
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-arq</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-arq</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
@@ -55,6 +55,6 @@
   </dependencies>
 
   <scm>
-    <tag>jena-4.5.0</tag>
+    <tag>sjenar-4.5.0</tag>
   </scm>
 </project>

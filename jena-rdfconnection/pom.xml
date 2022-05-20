@@ -21,14 +21,14 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>jena-rdfconnection</artifactId>
+  <artifactId>sjenar-rdfconnection</artifactId>
   <packaging>jar</packaging>
-  <name>Apache Jena - RDF Connection</name>
+  <name>Vaimee SJenAR - RDF Connection</name>
   <description>RDF Connection</description>
 
   <parent>
-    <groupId>org.apache.jena</groupId>
-    <artifactId>jena</artifactId>
+    <groupId>com.vaimee</groupId>
+    <artifactId>sjenar</artifactId>
     <version>4.5.0</version>
     <relativePath>..</relativePath>
   </parent>
@@ -46,30 +46,30 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-arq</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-arq</artifactId>
       <version>4.5.0</version>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-base</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-base</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
     
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-arq</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-arq</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-core</artifactId>
+      <groupId>com.vaimee</groupId>
+      <artifactId>sjenar-core</artifactId>
       <classifier>tests</classifier>
       <version>4.5.0</version>
       <scope>test</scope>

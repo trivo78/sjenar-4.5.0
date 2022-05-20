@@ -19,16 +19,16 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.apache.jena</groupId>
-	<artifactId>jena-jdbc</artifactId>
+	<groupId>com.vaimee</groupId>
+	<artifactId>sjenar-jdbc</artifactId>
 	<version>4.5.0</version>
 	<packaging>pom</packaging>
-	<name>Apache Jena - JDBC Parent</name>
+	<name>Vaimee SJenar - JDBC Parent</name>
 	<description>This is the parent module for the Jena JDBC modules.  These modules provide JDBC Type 4 drivers for in-memory and TDB datasets as well as remote SPARQL endpoints.</description>
 
 	<parent>
-		<groupId>org.apache.jena</groupId>
-		<artifactId>jena</artifactId>
+		<groupId>com.vaimee</groupId>
+		<artifactId>sjenar</artifactId>
 		<version>4.5.0</version>
 		<relativePath>..</relativePath>
 	</parent>
