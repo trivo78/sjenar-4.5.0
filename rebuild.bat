@@ -4,4 +4,4 @@ SET PATH=C:\apache-maven-3.8.4\bin;C:\Program Files\Java\jdk-11.0.12\bin;C:\Prog
 
 SET JAVA_HOME=C:\Program Files\Java\jdk-11.0.12
 
-mvn clean install  -Dmaven.javadoc.skip=true %*
+mvn  install  -Dmaven.javadoc.skip=true %*
