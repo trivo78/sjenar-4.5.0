@@ -18,11 +18,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <name>Vaimee SJenAR</name>
-  <groupId>com.vaimee</groupId>
-  <artifactId>sjenar</artifactId>
+  <name>Apache Jena</name>
+  <groupId>org.apache.jena</groupId>
+  <artifactId>jena</artifactId>
   <packaging>pom</packaging>
-  <url>https://vaimee.com/</url>
+  <url>https://jena.apache.org/</url>
   <version>4.5.0</version>
 
   <parent>
@@ -47,7 +47,7 @@
     <connection>scm:git:https://gitbox.apache.org/repos/asf/jena.git</connection>
     <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/jena.git</developerConnection>
     <url>https://gitbox.apache.org/repos/asf/jena.git</url>
-    <tag>sjenar-4.5.0</tag>
+    <tag>jena-4.5.0</tag>
   </scm>
 
    <properties>

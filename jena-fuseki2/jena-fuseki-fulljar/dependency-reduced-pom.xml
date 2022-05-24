@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <parent>
-    <artifactId>sjenar-fuseki</artifactId>
-    <groupId>com.vaimee</groupId>
+    <artifactId>jena-fuseki</artifactId>
+    <groupId>org.apache.jena</groupId>
     <version>4.5.0</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>sjenar-fuseki-fulljar</artifactId>
-  <name>Vaimee SJenAR - Fuseki Server Standalone Jar</name>
+  <artifactId>jena-fuseki-fulljar</artifactId>
+  <name>Apache Jena - Fuseki Server Standalone Jar</name>
   <description>Fuseki Webapp - combined jar with built-in webserver.</description>
   <scm>
-    <tag>sjenar-4.5.0</tag>
+    <tag>jena-4.5.0</tag>
   </scm>
   <build>
     <plugins>

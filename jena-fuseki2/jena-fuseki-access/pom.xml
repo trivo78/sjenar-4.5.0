@@ -19,12 +19,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-  <name>Vaimee SJenAR- Fuseki Data Access Control</name>
-  <artifactId>sjenar-fuseki-access</artifactId>
+  <name>Apache Jena - Fuseki Data Access Control</name>
+  <artifactId>jena-fuseki-access</artifactId>
 
   <parent>
-    <groupId>com.vaimee</groupId>
-    <artifactId>sjenar-fuseki</artifactId>
+    <groupId>org.apache.jena</groupId>
+    <artifactId>jena-fuseki</artifactId>
     <version>4.5.0</version>
   </parent> 
 
@@ -36,8 +36,8 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.vaimee</groupId>
-      <artifactId>sjenar-fuseki-core</artifactId>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-fuseki-core</artifactId>
       <version>4.5.0</version>
     </dependency>
 
@@ -125,6 +125,6 @@
   </build>
 
   <scm>
-    <tag>sjenar-4.5.0</tag>
+    <tag>jena-4.5.0</tag>
   </scm>
 </project>

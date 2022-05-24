@@ -20,12 +20,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.vaimee</groupId>
-    <artifactId>sjenar-jdbc</artifactId>
+    <groupId>org.apache.jena</groupId>
+    <artifactId>jena-jdbc</artifactId>
     <version>4.5.0</version>
   </parent>
-  <artifactId>sjenar-jdbc-driver-remote</artifactId>
-  <name>Vaimee SJenar - JDBC Remote Endpoint Driver</name>
+  <artifactId>jena-jdbc-driver-remote</artifactId>
+  <name>Apache Jena - JDBC Remote Endpoint Driver</name>
   <description>A Jena JDBC driver for use with remote SPARQL endpoints.</description>
 
   <properties>
@@ -35,28 +35,28 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.vaimee</groupId>
-      <artifactId>sjenar-jdbc-core</artifactId>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-jdbc-core</artifactId>
       <version>4.5.0</version>
     </dependency>
 
     <!-- Test Dependencies -->
     <dependency>
-      <groupId>com.vaimee</groupId>
-      <artifactId>sjenar-jdbc-core</artifactId>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-jdbc-core</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.vaimee</groupId>
-      <artifactId>sjenar-fuseki-main</artifactId>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-fuseki-main</artifactId>
       <version>4.5.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.vaimee</groupId>
-      <artifactId>sjenar-fuseki-main</artifactId>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-fuseki-main</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
@@ -106,6 +106,6 @@
   </build>
 
   <scm>
-    <tag>sjenar-4.5.0</tag>
+    <tag>jena-4.5.0</tag>
   </scm>
 </project>

@@ -19,14 +19,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.vaimee</groupId>
-    <artifactId>sjenar</artifactId>
+    <groupId>org.apache.jena</groupId>
+    <artifactId>jena</artifactId>
     <version>4.5.0</version>
     <relativePath>..</relativePath>
   </parent> 
 
-  <name>Vaimee SJenAR - Fuseki - A SPARQL 1.1 Server</name>
-  <artifactId>sjenar-fuseki</artifactId>
+  <name>Apache Jena - Fuseki - A SPARQL 1.1 Server</name>
+  <artifactId>jena-fuseki</artifactId>
   <version>4.5.0</version>
 
   <description>Fuseki is a SPARQL 1.1 Server which provides the SPARQL query, 

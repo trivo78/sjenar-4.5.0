@@ -18,13 +18,13 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>sjenar-text</artifactId>
+  <artifactId>jena-text</artifactId>
   <packaging>jar</packaging>
-  <name>Vaimee SJenar - SPARQL Text Search</name>
+  <name>Apache Jena - SPARQL Text Search</name>
 
   <parent>
-    <groupId>com.vaimee</groupId>
-    <artifactId>sjenar</artifactId>
+    <groupId>org.apache.jena</groupId>
+    <artifactId>jena</artifactId>
     <version>4.5.0</version>
     <relativePath>..</relativePath>
   </parent>
@@ -37,33 +37,33 @@
   <dependencies>
 
     <dependency>
-      <groupId>com.vaimee</groupId>
-      <artifactId>sjenar-arq</artifactId>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-arq</artifactId>
       <version>4.5.0</version>
     </dependency>
 
     <dependency>
-      <groupId>com.vaimee</groupId>
-      <artifactId>sjenar-tdb</artifactId>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-tdb</artifactId>
       <version>4.5.0</version>
     </dependency>
 
     <dependency>
-      <groupId>com.vaimee</groupId>
-      <artifactId>sjenar-tdb2</artifactId>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-tdb2</artifactId>
       <version>4.5.0</version>
     </dependency>
 
     <dependency>
-      <groupId>com.vaimee</groupId>
-      <artifactId>sjenar-cmds</artifactId>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-cmds</artifactId>
       <version>4.5.0</version>
     </dependency>
     
     <!-- Testing support -->
     <dependency>
-      <groupId>com.vaimee</groupId>
-      <artifactId>sjenar-base</artifactId>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-base</artifactId>
       <version>4.5.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
